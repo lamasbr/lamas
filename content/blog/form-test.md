@@ -10,13 +10,13 @@ description: Form test desc
     <input type="hidden" name="form-name" value="contact" />
     
     <p>
-        <label for="nome">Seu nome: </label>
-        <input type="text" name="nome" id="nome">
+        <label for="nome">Seu nome: </label>
+        <input type="text" name="nome" id="nome" />
     </p>
 
     <p>
-        <label for="email">Seu email: </label>
-        <input type="email" name="email" id="email">
+        <label for="email">Seu email: </label>
+        <input type="email" name="email" id="email" />
     </p>
     
     <p>
@@ -28,11 +28,11 @@ description: Form test desc
     </p>
 
     <p>
-        <label for="mensagem">Mensagem: </label>
+        <label for="mensagem">Mensagem: </label>
         <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
     </p>
 
     <p>
-        <button type="submit"></button> | <button type="reset"></button>
+        <input type="submit" value="Enviar" /> | <input type="reset" value="Redefinir" />
     </p>
 </form>
