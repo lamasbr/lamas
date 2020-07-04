@@ -4,7 +4,7 @@ module.exports = {
     title: `Meu blog pessoal`,
     author: `Lincoln Lamas (lamasbr)`,
     description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
-    siteUrl: `https://lamas.github.io/`,
+    siteUrl: `https://lamasbr.github.io/lamas/`,
     social: {
       twitter: `lamasbr`,
     },
