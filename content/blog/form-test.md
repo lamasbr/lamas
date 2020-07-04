@@ -10,25 +10,26 @@ description: Form test desc
     <input type="hidden" name="form-name" value="contact" />
     
     <p>
-        <label for="nome">Seu nome: 
-        <input type="text" name="nome" id="nome"></label>
+        <label for="nome">Seu nome: </label>
+        <input type="text" name="nome" id="nome">
     </p>
 
     <p>
-        <label for="email">Seu email: 
-        <input type="email" name="email" id="email"></label>
+        <label for="email">Seu email: </label>
+        <input type="email" name="email" id="email">
     </p>
     
     <p>
-        <label>Your Role: <select name="role[]" multiple>
+        <label>Your Role: </label>
+        <select name="role[]" multiple>
             <option value="leader">Leader</option>
             <option value="follower">Follower</option>
-        </select></label>
+        </select>
     </p>
 
     <p>
-        <label for="mensagem">Mensagem: 
-        <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea></label>
+        <label for="mensagem">Mensagem: </label>
+        <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
     </p>
 
     <p>
